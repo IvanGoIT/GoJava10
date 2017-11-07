@@ -1,0 +1,13 @@
+Установка Java (JDK): http://study-java.ru/uroki-java/urok-1-ustanovka-java/
+SmartGit: http://www.syntevo.com/smartgit/download
+Intellij IDEA: https://www.jetbrains.com/idea/download
+
+Git (1): https://www.youtube.com/watch?v=4-NX17Ip-xQ
+Git и GitHub (2): https://www.youtube.com/watch?v=K9fkejaywBM
+Git (3): https://www.youtube.com/watch?v=CVwgJROa-HQ
+Git (4): https://www.youtube.com/watch?v=sfepg2HJNpQ
+Git (5): https://www.youtube.com/watch?v=yh1qMy4NqT8
+Git (6): https://www.youtube.com/watch?v=lCB_EH10JfI
+Git (7): https://www.youtube.com/watch?v=7bO6eLE1GtM
+
+https://docs.google.com/document/d/1p_HoAoXl0L2Hjd_yVit2KbC7ZGqANeQYW5HDkm86Mg0/edit?usp=sharing

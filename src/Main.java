@@ -10,5 +10,7 @@ public class Main {
         System.out.println("2 + 2 = " + (2 + 2));
 
         System.out.println("Строка 1\n\tСтрока 2\n\t\tСтрока 3");
+
+        System.out.println("Конец :)");
     }
 }

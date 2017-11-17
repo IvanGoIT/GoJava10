@@ -8,6 +8,7 @@ public class InputExample {
 
         System.out.println("Введите пожалуйста ваше имя:");
         String name = scanner.nextLine();
+
         System.out.println("Введите пожалуйста ваше любимое число:");
         int favoriteNumber = scanner.nextInt();
 

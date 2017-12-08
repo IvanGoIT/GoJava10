@@ -1,5 +1,9 @@
 package questions.question5;
 
+import javafx.scene.control.Button;
+import javafx.scene.paint.Paint;
+import javafx.scene.shape.Circle;
+
 public class CodeExample {
 
     static boolean doorState = false, windowState = true;
@@ -13,6 +17,16 @@ public class CodeExample {
 
         toggleDoor();
         show();
+
+
+        Paint red = Paint.valueOf("#FF0000");
+        Circle c1 = new Circle(100, red);
+        c1.setCenterX(500);
+        c1.setCenterY(250);
+
+        Button btn = new Button("Press Me");
+        btn.setTranslateX(250);
+        btn.setTranslateY(100);
     }
 
     public static void show() {

@@ -79,11 +79,10 @@ public class PaintFX extends Application {
     public void start(Stage primaryStage) throws Exception {
         Pane root = new Pane();
         Pane circlesRoot = new Pane();
-        root.getChildren().addAll(circlesRoot);
 
+        root.getChildren().addAll(circlesRoot);
         drawUI(root, circlesRoot);
         draw(circlesRoot);
-
 
         windowSetup(primaryStage);
         primaryStage.setScene(new Scene(root));

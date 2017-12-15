@@ -1,7 +1,5 @@
-package lessons.lesson6;
+package lessons.lesson5_1;
 
-import javafx.animation.Animation;
-import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;

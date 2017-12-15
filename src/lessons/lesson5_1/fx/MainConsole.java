@@ -1,4 +1,4 @@
-package lessons.lesson6.fx;
+package lessons.lesson5_1.fx;
 
 public class MainConsole {
 

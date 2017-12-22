@@ -11,13 +11,15 @@ import javafx.stage.Stage;
 import java.io.File;
 
 public class Main extends Application {
+    private static final int HEIGHT = 300;
+    private static final int WIDTH = 400;
 
     @Override
     public void start(Stage primaryStage)
     {
         //Add a scene
         Group root = new Group();
-        Scene scene = new Scene(root, 500, 200);
+        Scene scene = new Scene(root, WIDTH, HEIGHT);
 
         String path = "files/question5_2/put.mp3";
         Media pick = new Media(new File(path).toURI().toString());
@@ -32,6 +34,7 @@ public class Main extends Application {
         //show the stage
         primaryStage.setTitle("Media Player");
         primaryStage.setScene(scene);
+
         primaryStage.show();
     }
 

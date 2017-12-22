@@ -17,13 +17,13 @@ public class PaintFX extends Application {
     private static final int RGB_SYMBOLS_COUNT = 6;
     private static final int COUNT_OF_CIRCLES = 100;
 
-    private Random r = new Random();
+    private static Random r = new Random();
 
     public static void main(String[] args) {
         launch(args);
     }
 
-    private Paint generateRandomColor() {
+    private static Paint generateRandomColor() {
         String rgb = "#";
         for(int i = 0; i < RGB_SYMBOLS_COUNT; i++) {
             rgb += (char)('0' + r.nextInt(9));
@@ -32,7 +32,7 @@ public class PaintFX extends Application {
         return Paint.valueOf(rgb);
     }
 
-    private Circle generateCircle(int maxRadius, int maxStroke) {
+    public static Circle generateCircle(int maxRadius, int maxStroke) {
         Circle c = new Circle(r.nextDouble() * WINDOW_WIDTH,
                 r.nextDouble() * WINDOW_HEIGHT,
                 r.nextDouble() * maxRadius);
@@ -44,7 +44,7 @@ public class PaintFX extends Application {
         return c;
     }
 
-    private void draw(Pane root) {
+    public static void draw(Pane root) {
         for(int i = 0; i < COUNT_OF_CIRCLES; i++) {
             Circle circle = generateCircle(100, 10);
             root.getChildren().addAll(circle);
@@ -62,7 +62,7 @@ public class PaintFX extends Application {
         primaryStage.setMinHeight(WINDOW_HEIGHT);
     }
 
-    void drawUI(Pane root, Pane circlesRoot) {
+    public static void drawUI(Pane root, Pane circlesRoot) {
         Button button = new Button("Regenerate");
         button.setTranslateX(10);
         button.setTranslateY(10);

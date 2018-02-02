@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="GoJava102">
+    <output-path>$PROJECT_DIR$/out/artifacts/GoJava102</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="questions.question8.FXWindow" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Fibonachi" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="GoJava10.jar">
+        <element id="module-output" name="GoJava10" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/manifest/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

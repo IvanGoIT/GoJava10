@@ -1,8 +1,7 @@
-package lessons.lesson9;
+package lessons.lesson8_1;
 
 import java.io.*;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.*;
 

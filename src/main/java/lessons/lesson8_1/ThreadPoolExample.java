@@ -1,4 +1,4 @@
-package lessons.lesson9;
+package lessons.lesson8_1;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

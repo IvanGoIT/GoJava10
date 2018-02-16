@@ -30,7 +30,7 @@ public class VideoPlayerExample extends Application {
     public void start(Stage primaryStage) throws Exception {
         Pane root = new Pane();
 
-        Media media = new Media(new File(AUDIO_URL).toURI().toString());
+        Media media = new Media(new File(VIDEO_URL).toURI().toString());
         MediaPlayer player = new MediaPlayer(media);
 
         MediaView mediaView = new MediaView(player);
